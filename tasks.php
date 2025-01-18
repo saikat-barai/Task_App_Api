@@ -5,6 +5,7 @@ use Config\Database;
 use Api\TaskApi\Task;
 
 require_once './vendor/autoload.php';
+header('Content-Type: application/json');
 
 
 $db = new Database();

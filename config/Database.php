@@ -6,7 +6,7 @@ use mysqli;
 
 class Database{
     private $host = 'localhost';
-    private $db = 'task_api';
+    private $db = 'task_app';
     private $user = 'root';
     private $password = '';
     private $conn;
